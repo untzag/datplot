@@ -1,0 +1,41 @@
+[view]
+w1 = True
+w2 = True	
+w3 = False
+wm = True
+d1 = True
+d2 = True
+
+[colors (wn)]
+units = cm^{-1}
+w1 = \omega_1
+w2 = \omega_2
+w3 = \omega_3
+wm = \omega_m
+
+[colors (nm)]
+units = nm
+w1 = \lambda_1
+w2 = \lambda_2
+w3 = \lambda_3
+wm = \lambda_m
+
+[colors (eV)]
+units = eV
+w1 = E_1
+w2 = E_2
+w3 = E_3
+wm = E_m
+
+[delays]
+units (fs) = fs
+units (ps) = ps
+units (ns) = ns
+d1 = \tau_{2^{\prime}2}
+d2 = \tau_{21}
+
+[other]
+symbol between dimensions = =
+symbol before value = =
+left bracket = \left(
+right bracket = \right)
